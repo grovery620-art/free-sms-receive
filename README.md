@@ -1,11 +1,22 @@
-<div align="center">
+# SMSReceive - Receive SMS Online Free
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Modern full-stack application for temporary phone numbers and SMS verification.
 
-  <h1>Built with AI Studio</h2>
+## Features
+- **Real-time SMS**: Using Socket.io for instant message delivery.
+- **Multi-country support**: USA, UK, Canada, India, Germany, Mexico, Australia, Bolivia.
+- **Monetization Ready**: Placeholders for Popunders, Banners, and Push Notifications.
+- **Bilingual**: English and Spanish support.
+- **Modern UI**: Dark mode, responsive design, and smooth animations.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Installation
+1. `npm install`
+2. `npm run dev`
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Deployment
+- **Frontend**: Vercel or Netlify.
+- **Backend**: Railway, Render, or DigitalOcean.
+- **Ads**: Register at PropellerAds/Adsterra and replace IDs in `src/components/Monetization.tsx`.
 
-</div>
+## Legal Disclaimer
+This is a demonstration project. Public numbers are insecure. Do not use for banking or sensitive accounts.
